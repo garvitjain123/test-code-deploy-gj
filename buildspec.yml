@@ -14,6 +14,7 @@ phases:
   build:
     commands:
       - ng build sample-angular-app
+      - cp appspec.yml ./dist/sample-angular-app/
 
 artifacts:
   files:
