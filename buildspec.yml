@@ -17,4 +17,4 @@ phases:
 
 artifacts:
   files:
-    - dist/* # This assumes your Angular output is in the "dist" directory
+    - ./dist/*
