@@ -19,3 +19,4 @@ artifacts:
   files:
     - ./dist/sample-angular-app/*
     - appspec.yml
+    - change_location.sh
