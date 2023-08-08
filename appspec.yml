@@ -9,7 +9,8 @@ permissions:
     pattern: "**/*"
     owner: ec2-user
     group: ec2-user
-AfterInstall:
-    - location: change_location.sh
+hooks:
+  AfterInstall:
+    - location: scripts/change_location.sh
       timeout: 300
       runas: root
